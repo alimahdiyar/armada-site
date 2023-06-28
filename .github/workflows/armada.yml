@@ -21,8 +21,8 @@ jobs:
         id: armada
         with:
           build_dir: build
-          bundle_name: demo-project-${{ github.ref_name }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          bundle_name: armada-site-${{ github.ref_name }}
+          github_token: ${{ secrets.ARMADA_GITHUB_TOKEN }}
 
       - name: Log the Armada bundle data
         run: |
