@@ -21,7 +21,7 @@ jobs:
         id: armada
         with:
           build_dir: build
-          bundle_name: armada-site-${{ github.ref_name }}
+          bundle_name: ajna-app-v1-${{ github.ref_name }}
           github_token: ${{ secrets.ARMADA_GITHUB_TOKEN }}
 
       - name: Log the Armada bundle data
